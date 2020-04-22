@@ -6,6 +6,9 @@
     "dist"
   ],
   "repository": "graficos-net/html-cleanser",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.2.0",
   "author": "Paul Melero",
   "license": "MIT",
