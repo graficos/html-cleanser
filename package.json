@@ -1,0 +1,24 @@
+{
+  "name": "html-cleanser",
+  "module": "html-cleanser.esm.js",
+  "main": "html-cleanser.min.js",
+  "version": "0.1.1",
+  "author": "Paul Melero",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --ci --colors"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "babel-jest": "^25.1.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
