@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Big list of naughty strings given " onfocus=JaVaSCript:alert(123) autofocus " it returns expected output 1`] = `" onfocus=JaVaSCript:alert(123) autofocus "`;
+
+exports[`Big list of naughty strings given "!@#$%^&*()\`~" it returns expected output 1`] = `"!@#$%^&*()\`~"`;
+
+exports[`Big list of naughty strings given "" autofocus onkeyup="javascript:alert(123)" it returns expected output 1`] = `"\\" autofocus onkeyup=\\"javascript:alert(123)"`;
+
+exports[`Big list of naughty strings given "" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "" onfocus=JaVaSCript:alert(123) autofocus " it returns expected output 1`] = `"\\" onfocus=JaVaSCript:alert(123) autofocus "`;
+
+exports[`Big list of naughty strings given """ it returns expected output 1`] = `"\\""`;
+
+exports[`Big list of naughty strings given """" it returns expected output 1`] = `"\\"\\""`;
+
+exports[`Big list of naughty strings given ""'"'"''''"" it returns expected output 1`] = `"\\"'\\"'\\"''''\\""`;
+
+exports[`Big list of naughty strings given ""''''"'"" it returns expected output 1`] = `"\\"''''\\"'\\""`;
+
+exports[`Big list of naughty strings given "";alert(123);t="" it returns expected output 1`] = `"\\";alert(123);t=\\""`;
+
+exports[`Big list of naughty strings given ""><script>alert(123);</script x="" it returns expected output 1`] = `"\\">alert(123);"`;
+
+exports[`Big list of naughty strings given ""><script>alert(123)</script>" it returns expected output 1`] = `"\\">alert(123)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x00javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x00javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x09javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x09javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x0Ajavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x0Ajavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x0Bjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x0Bjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x0Cjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x0Cjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x0Djavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x0Djavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x2Bjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x2Bjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x3Bjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x3Bjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x7Ejavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x7Ejavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x20javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x20javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\x21javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\x21javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xC2\\x85javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xC2\\\\x85javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xC2\\xA0javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xC2\\\\xA0javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE1\\x9A\\x80javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE1\\\\x9A\\\\x80javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE1\\xA0\\x8Ejavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE1\\\\xA0\\\\x8Ejavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x8Ajavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x8Ajavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x8Bjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x8Bjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x80javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x80javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x81javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x81javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x82javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x82javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x83javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x83javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x84javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x84javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x85javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x85javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x86javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x86javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x87javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x87javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x88javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x88javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\x89javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\x89javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\xA8javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\xA8javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\xA9javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\xA9javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x80\\xAFjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x80\\\\xAFjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE2\\x81\\x9Fjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE2\\\\x81\\\\x9Fjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xE3\\x80\\x80javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xE3\\\\x80\\\\x80javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xEF\\xBB\\xBFjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xEF\\\\xBB\\\\xBFjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xEF\\xBF\\xAEjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xEF\\\\xBF\\\\xAEjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xEF\\xBF\\xBEjavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xEF\\\\xBF\\\\xBEjavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>\\xF0\\x90\\x96\\x9Ajavascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>\\\\xF0\\\\x90\\\\x96\\\\x9Ajavascript:alert(1)"`;
+
+exports[`Big list of naughty strings given ""\`'><script>-javascript:alert(1)</script>" it returns expected output 1`] = `"\\"\`'>-javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given "$(touch /tmp/blns.fail)" it returns expected output 1`] = `"$(touch /tmp/blns.fail)"`;
+
+exports[`Big list of naughty strings given "$1.00" it returns expected output 1`] = `"$1.00"`;
+
+exports[`Big list of naughty strings given "$ENV{'HOME'}" it returns expected output 1`] = `"$ENV{'HOME'}"`;
+
+exports[`Big list of naughty strings given "$HOME" it returns expected output 1`] = `"$HOME"`;
+
+exports[`Big list of naughty strings given "$USER" it returns expected output 1`] = `"$USER"`;
+
+exports[`Big list of naughty strings given "%*.*s" it returns expected output 1`] = `"%*.*s"`;
+
+exports[`Big list of naughty strings given "%d" it returns expected output 1`] = `"%d"`;
+
+exports[`Big list of naughty strings given "%s" it returns expected output 1`] = `"%s"`;
+
+exports[`Big list of naughty strings given "%x('ls -al /')" it returns expected output 1`] = `"%x('ls -al /')"`;
+
+exports[`Big list of naughty strings given "&lt;script&gt;alert(&#39;123&#39;);&lt;/script&gt;" it returns expected output 1`] = `"&lt;script&gt;alert(&#39;123&#39;);&lt;/script&gt;"`;
+
+exports[`Big list of naughty strings given "' OR '1'='1" it returns expected output 1`] = `"' OR '1'='1"`;
+
+exports[`Big list of naughty strings given "' OR 1=1 -- 1" it returns expected output 1`] = `"' OR 1=1 -- 1"`;
+
+exports[`Big list of naughty strings given "' autofocus onkeyup='javascript:alert(123)" it returns expected output 1`] = `"' autofocus onkeyup='javascript:alert(123)"`;
+
+exports[`Big list of naughty strings given "' onfocus=JaVaSCript:alert(123) autofocus " it returns expected output 1`] = `"' onfocus=JaVaSCript:alert(123) autofocus "`;
+
+exports[`Big list of naughty strings given "'" it returns expected output 1`] = `"'"`;
+
+exports[`Big list of naughty strings given "'"'" it returns expected output 1`] = `"'\\"'"`;
+
+exports[`Big list of naughty strings given "''" it returns expected output 1`] = `"''"`;
+
+exports[`Big list of naughty strings given "';alert(123);t='" it returns expected output 1`] = `"';alert(123);t='"`;
+
+exports[`Big list of naughty strings given "'><script>alert(123);</script x='" it returns expected output 1`] = `"'>alert(123);"`;
+
+exports[`Big list of naughty strings given "'><script>alert(123)</script>" it returns expected output 1`] = `"'>alert(123)"`;
+
+exports[`Big list of naughty strings given "'\`"><\\x00script>javascript:alert(1)</script>" it returns expected output 1`] = `"'\`\\"><\\\\x00script>javascript:alert(1)"`;
+
+exports[`Big list of naughty strings given "'\`"><\\x3Cscript>javascript:alert(1)</script>        " it returns expected output 1`] = `"'\`\\"><\\\\x3Cscript>javascript:alert(1)        "`;
+
+exports[`Big list of naughty strings given "( ͡° ͜ʖ ͡°)" it returns expected output 1`] = `"( ͡° ͜ʖ ͡°)"`;
+
+exports[`Big list of naughty strings given "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }" it returns expected output 1`] = `"() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }"`;
+
+exports[`Big list of naughty strings given "() { 0; }; touch /tmp/blns.shellshock1.fail;" it returns expected output 1`] = `"() { 0; }; touch /tmp/blns.shellshock1.fail;"`;
+
+exports[`Big list of naughty strings given "(null)" it returns expected output 1`] = `"(null)"`;
+
+exports[`Big list of naughty strings given "(╯°□°）╯︵ ┻━┻)  " it returns expected output 1`] = `"(╯°□°）╯︵ ┻━┻)  "`;
+
+exports[`Big list of naughty strings given "(｡◕ ∀ ◕｡)" it returns expected output 1`] = `"(｡◕ ∀ ◕｡)"`;
+
+exports[`Big list of naughty strings given "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻" it returns expected output 1`] = `"(ﾉಥ益ಥ）ﾉ﻿ ┻━┻"`;
+
+exports[`Big list of naughty strings given "," it returns expected output 1`] = `","`;
+
+exports[`Big list of naughty strings given ",./;'[]\\-=" it returns expected output 1`] = `",./;'[]\\\\-="`;
+
+exports[`Big list of naughty strings given ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’" it returns expected output 1`] = `",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’"`;
+
+exports[`Big list of naughty strings given "." it returns expected output 1`] = `"."`;
+
+exports[`Big list of naughty strings given "../../../../../../../../../../../etc/hosts" it returns expected output 1`] = `"../../../../../../../../../../../etc/hosts"`;
+
+exports[`Big list of naughty strings given "../../../../../../../../../../../etc/passwd%00" it returns expected output 1`] = `"../../../../../../../../../../../etc/passwd%00"`;
+
+exports[`Big list of naughty strings given "/dev/null; touch /tmp/blns.fail ; echo" it returns expected output 1`] = `"/dev/null; touch /tmp/blns.fail ; echo"`;
+
+exports[`Big list of naughty strings given ";alert(123);" it returns expected output 1`] = `";alert(123);"`;
+
+exports[`Big list of naughty strings given "< / script >< script >alert(123)< / script >" it returns expected output 1`] = `"alert(123)"`;
+
+exports[`Big list of naughty strings given "<!--[if<img src=x onerror=javascript:alert(1)//]> -->" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<!--[if]><script>javascript:alert(1)</script -->" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "</script><script>alert(123)</script>" it returns expected output 1`] = `"alert(123)"`;
+
+exports[`Big list of naughty strings given "<<SCRIPT>alert("XSS");//<</SCRIPT>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<>?:"{}|_+" it returns expected output 1`] = `"<>?:\\"{}|_+"`;
+
+exports[`Big list of naughty strings given "<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>" it returns expected output 1`] = `" version=\\"1.0\\" encoding=\\"ISO-8859-1\\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \\"file:///etc/passwd\\" >]>&xxe;"`;
+
+exports[`Big list of naughty strings given "<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^\`=alert("XSS")>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG """><SCRIPT>alert("XSS")</SCRIPT>">" it returns expected output 1`] = `"alert(\\"XSS\\")\\">"`;
+
+exports[`Big list of naughty strings given "<IMG SRC= onmouseover="alert('xxs')">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=" &#14;  javascript:alert('XSS');">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC="jav   ascript:alert('XSS');">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC="jav&#x09;ascript:alert('XSS');">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC="jav&#x0A;ascript:alert('XSS');">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC="jav&#x0D;ascript:alert('XSS');">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC="javascript:alert('XSS')"" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=# onmouseover="alert('xxs')">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<IMG onmouseover="alert('xxs')">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<SCRIPT SRC=//ha.ckers.org/.j>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<a href="\\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xC2\\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE1\\x9A\\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE1\\xA0\\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x80\\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE2\\x81\\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="\\xE3\\x80\\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="javascript\\x00:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="javascript\\x09:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="javascript\\x0A:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="javascript\\x0D:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href="javascript\\x3A:javascript:alert(1)" id="fuzzelement1">test</a>" it returns expected output 1`] = `"test"`;
+
+exports[`Big list of naughty strings given "<a href=http://foo.bar/#x=\`y></a><img alt="\`><img src=x:x onerror=javascript:alert(1)></a>">" it returns expected output 1`] = `"\\">"`;
+
+exports[`Big list of naughty strings given "<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>" it returns expected output 1`] = `"XXX"`;
+
+exports[`Big list of naughty strings given "<iframe src=http://ha.ckers.org/scriptlet.html <" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x00src=x onerror="alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x00src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x11src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x12src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x34src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x39src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x47src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img \\x47src=x onerror="javascript:alert(1)">" it returns expected output 2`] = `""`;
+
+exports[`Big list of naughty strings given "<img src onerror /" '"= alt=javascript:alert(1)//">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src="x\` \`<script>javascript:alert(1)</script>"\` \`>" it returns expected output 1`] = `"javascript:alert(1)\\"\` \`>"`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x00"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x09"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x10"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x11"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x12"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=\\x32"javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x onerror=alert(123) />" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x\\x09onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x\\x10onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x\\x11onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x\\x12onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src=x\\x13onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x00=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x09=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x10=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x11=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x12=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x13=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x32=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img src\\x47=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x10src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x11src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x13src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x32src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x47src=x onerror="javascript:alert(1)">" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<img\\x47src=x onerror="javascript:alert(1)">" it returns expected output 2`] = `""`;
+
+exports[`Big list of naughty strings given "<sc<script>ript>alert(123)</sc</script>ript>" it returns expected output 1`] = `"ript>alert(123)ript>"`;
+
+exports[`Big list of naughty strings given "<script src="/\\%(jscript)s"></script>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<script src="\\\\%(jscript)s"></script>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "<script>alert(123)</script>" it returns expected output 1`] = `"alert(123)"`;
+
+exports[`Big list of naughty strings given "<script\\x09type="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x0Atype="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x0Ctype="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x0Dtype="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x2Ftype="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x3Etype="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<script\\x20type="text/javascript">javascript:alert(1);</script>" it returns expected output 1`] = `"javascript:alert(1);"`;
+
+exports[`Big list of naughty strings given "<svg><script>123<1>alert(123)</script> " it returns expected output 1`] = `"123alert(123) "`;
+
+exports[`Big list of naughty strings given "<title onpropertychange=javascript:alert(1)></title><title title=>" it returns expected output 1`] = `""`;
+
+exports[`Big list of naughty strings given "><script>alert(123);</script x=" it returns expected output 1`] = `">alert(123);"`;
+
+exports[`Big list of naughty strings given "><script>alert(123)</script>" it returns expected output 1`] = `">alert(123)"`;
+
+exports[`Big list of naughty strings given "@{[system "touch /tmp/blns.fail"]}" it returns expected output 1`] = `"@{[system \\"touch /tmp/blns.fail\\"]}"`;
+
+exports[`Big list of naughty strings given "\\" it returns expected output 1`] = `"\\\\"`;
+
+exports[`Big list of naughty strings given "\\";alert('XSS');//" it returns expected output 1`] = `"\\\\\\";alert('XSS');//"`;
+
+exports[`Big list of naughty strings given "\\\\" it returns expected output 1`] = `"\\\\\\\\"`;
+
+exports[`Big list of naughty strings given "__ﾛ(,_,*)" it returns expected output 1`] = `"__ﾛ(,_,*)"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x00onerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x09onerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x0Aonerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x0Bonerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x0Conerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x0Donerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x2Fonerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x20onerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x22onerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`"'><img src=xxx:x \\x27onerror=javascript:alert(1)>" it returns expected output 1`] = `"\`\\"'>"`;
+
+exports[`Big list of naughty strings given "\`ls -al /\`" it returns expected output 1`] = `"\`ls -al /\`"`;
+
+exports[`Big list of naughty strings given "\`touch /tmp/blns.fail\`" it returns expected output 1`] = `"\`touch /tmp/blns.fail\`"`;
+
+exports[`Big list of naughty strings given "\`⁄€‹›ﬁﬂ‡°·‚—±" it returns expected output 1`] = `"\`⁄€‹›ﬁﬂ‡°·‚—±"`;
+
+exports[`Big list of naughty strings given "-" it returns expected output 1`] = `"-"`;
+
+exports[`Big list of naughty strings given "-" it returns expected output 2`] = `"-"`;
+
+exports[`Big list of naughty strings given "-$1.00" it returns expected output 1`] = `"-$1.00"`;
+
+exports[`Big list of naughty strings given "-," it returns expected output 1`] = `"-,"`;
+
+exports[`Big list of naughty strings given "-." it returns expected output 1`] = `"-."`;
+
+exports[`Big list of naughty strings given "--" it returns expected output 1`] = `"--"`;
+
+exports[`Big list of naughty strings given "--><script>alert(123)</script>" it returns expected output 1`] = `"-->alert(123)"`;
+
+exports[`Big list of naughty strings given "--1" it returns expected output 1`] = `"--1"`;
+
+exports[`Big list of naughty strings given "--help" it returns expected output 1`] = `"--help"`;
+
+exports[`Big list of naughty strings given "--version" it returns expected output 1`] = `"--version"`;
+
+exports[`Big list of naughty strings given "-1" it returns expected output 1`] = `"-1"`;
+
+exports[`Big list of naughty strings given "-1.00" it returns expected output 1`] = `"-1.00"`;
+
+exports[`Big list of naughty strings given "-1/2" it returns expected output 1`] = `"-1/2"`;
+
+exports[`Big list of naughty strings given "-1E+02" it returns expected output 1`] = `"-1E+02"`;
+
+exports[`Big list of naughty strings given "-1E02" it returns expected output 1`] = `"-1E02"`;
+
+exports[`Big list of naughty strings given "-1E2" it returns expected output 1`] = `"-1E2"`;
+
+exports[`Big list of naughty strings given "-2147483648/-1" it returns expected output 1`] = `"-2147483648/-1"`;
+
+exports[`Big list of naughty strings given "-9223372036854775808/-1" it returns expected output 1`] = `"-9223372036854775808/-1"`;
+
+exports[`Big list of naughty strings given "-Infinity" it returns expected output 1`] = `"-Infinity"`;
+
+exports[`Big list of naughty strings given "0" it returns expected output 1`] = `"0"`;
+
+exports[`Big list of naughty strings given "0,,0" it returns expected output 1`] = `"0,,0"`;
+
+exports[`Big list of naughty strings given "0,0,0" it returns expected output 1`] = `"0,0,0"`;
+
+exports[`Big list of naughty strings given "0,0/0,0" it returns expected output 1`] = `"0,0/0,0"`;
+
+exports[`Big list of naughty strings given "0,00" it returns expected output 1`] = `"0,00"`;
+
+exports[`Big list of naughty strings given "0..0" it returns expected output 1`] = `"0..0"`;
+
+exports[`Big list of naughty strings given "0.0.0" it returns expected output 1`] = `"0.0.0"`;
+
+exports[`Big list of naughty strings given "0.0/0" it returns expected output 1`] = `"0.0/0"`;
+
+exports[`Big list of naughty strings given "0.0/0.0" it returns expected output 1`] = `"0.0/0.0"`;
+
+exports[`Big list of naughty strings given "0.00" it returns expected output 1`] = `"0.00"`;
+
+exports[`Big list of naughty strings given "0/0" it returns expected output 1`] = `"0/0"`;
+
+exports[`Big list of naughty strings given "00˙Ɩ$-" it returns expected output 1`] = `"00˙Ɩ$-"`;
+
+exports[`Big list of naughty strings given "08" it returns expected output 1`] = `"08"`;
+
+exports[`Big list of naughty strings given "09" it returns expected output 1`] = `"09"`;
+
+exports[`Big list of naughty strings given "01000" it returns expected output 1`] = `"01000"`;
+
+exports[`Big list of naughty strings given "0x0" it returns expected output 1`] = `"0x0"`;
+
+exports[`Big list of naughty strings given "0xabad1dea" it returns expected output 1`] = `"0xabad1dea"`;
+
+exports[`Big list of naughty strings given "0xffffffff" it returns expected output 1`] = `"0xffffffff"`;
+
+exports[`Big list of naughty strings given "0xffffffffffffffff" it returns expected output 1`] = `"0xffffffffffffffff"`;
+
+exports[`Big list of naughty strings given "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟" it returns expected output 1`] = `"0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟"`;
+
+exports[`Big list of naughty strings given "1 000 000,00" it returns expected output 1`] = `"1 000 000,00"`;
+
+exports[`Big list of naughty strings given "1 000 000.00" it returns expected output 1`] = `"1 000 000.00"`;
+
+exports[`Big list of naughty strings given "1 000,00" it returns expected output 1`] = `"1 000,00"`;
+
+exports[`Big list of naughty strings given "1 000.00" it returns expected output 1`] = `"1 000.00"`;
+
+exports[`Big list of naughty strings given "1" it returns expected output 1`] = `"1"`;
+
+exports[`Big list of naughty strings given "1'; DROP TABLE users-- 1" it returns expected output 1`] = `"1'; DROP TABLE users-- 1"`;
+
+exports[`Big list of naughty strings given "1'000'000,00" it returns expected output 1`] = `"1'000'000,00"`;
+
+exports[`Big list of naughty strings given "1'000'000.00" it returns expected output 1`] = `"1'000'000.00"`;
+
+exports[`Big list of naughty strings given "1'000,00" it returns expected output 1`] = `"1'000,00"`;
+
+exports[`Big list of naughty strings given "1'000.00" it returns expected output 1`] = `"1'000.00"`;
+
+exports[`Big list of naughty strings given "1,0/0,0" it returns expected output 1`] = `"1,0/0,0"`;
+
+exports[`Big list of naughty strings given "1,000,000.00" it returns expected output 1`] = `"1,000,000.00"`;
+
+exports[`Big list of naughty strings given "1,000.00" it returns expected output 1`] = `"1,000.00"`;
+
+exports[`Big list of naughty strings given "1.0/0.0" it returns expected output 1`] = `"1.0/0.0"`;
+
+exports[`Big list of naughty strings given "1.00" it returns expected output 1`] = `"1.00"`;
+
+exports[`Big list of naughty strings given "1.000,00" it returns expected output 1`] = `"1.000,00"`;
+
+exports[`Big list of naughty strings given "1.000.000,00" it returns expected output 1`] = `"1.000.000,00"`;
+
+exports[`Big list of naughty strings given "1/0" it returns expected output 1`] = `"1/0"`;
+
+exports[`Big list of naughty strings given "1/2" it returns expected output 1`] = `"1/2"`;
+
+exports[`Big list of naughty strings given "1;DROP TABLE users" it returns expected output 1`] = `"1;DROP TABLE users"`;
+
+exports[`Big list of naughty strings given "1E+02" it returns expected output 1`] = `"1E+02"`;
+
+exports[`Big list of naughty strings given "1E02" it returns expected output 1`] = `"1E02"`;
+
+exports[`Big list of naughty strings given "1E2" it returns expected output 1`] = `"1E2"`;
+
+exports[`Big list of naughty strings given "2.2250738585072011e-308" it returns expected output 1`] = `"2.2250738585072011e-308"`;
+
+exports[`Big list of naughty strings given "123456789012345678901234567890123456789" it returns expected output 1`] = `"123456789012345678901234567890123456789"`;
+
+exports[`Big list of naughty strings given "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999" it returns expected output 1`] = `"999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"`;
+
+exports[`Big list of naughty strings given "A:" it returns expected output 1`] = `"A:"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x00expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x09expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x0Aexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x0Bexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x0Cexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x0Dexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\x20expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xC2\\xA0expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x8Aexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x8Bexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x80expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x81expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x82expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x83expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x84expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x85expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x86expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x87expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x88expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE2\\x80\\x89expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xE3\\x80\\x80expression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:\\xEF\\xBB\\xBFexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:exp\\x00ression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:exp\\x5Cression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:expression\\x00(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x:expression\\x5C(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "ABC<div style="x\\x3Aexpression(javascript:alert(1)">DEF" it returns expected output 1`] = `"ABCDEF"`;
+
+exports[`Big list of naughty strings given "AUX" it returns expected output 1`] = `"AUX"`;
+
+exports[`Big list of naughty strings given "Arsenal canal" it returns expected output 1`] = `"Arsenal canal"`;
+
+exports[`Big list of naughty strings given "But now...[20Cfor my greatest trick...[8m" it returns expected output 1`] = `"But now...[20Cfor my greatest trick...[8m"`;
+
+exports[`Big list of naughty strings given "CLOCK$" it returns expected output 1`] = `"CLOCK$"`;
+
+exports[`Big list of naughty strings given "COM1" it returns expected output 1`] = `"COM1"`;
+
+exports[`Big list of naughty strings given "COM2" it returns expected output 1`] = `"COM2"`;
+
+exports[`Big list of naughty strings given "COM3" it returns expected output 1`] = `"COM3"`;
+
+exports[`Big list of naughty strings given "COM4" it returns expected output 1`] = `"COM4"`;
+
+exports[`Big list of naughty strings given "CON" it returns expected output 1`] = `"CON"`;
+
+exports[`Big list of naughty strings given "Craig Cockburn, Software Specialist" it returns expected output 1`] = `"Craig Cockburn, Software Specialist"`;
+
+exports[`Big list of naughty strings given "Dr. Herman I. Libshitz" it returns expected output 1`] = `"Dr. Herman I. Libshitz"`;
+
+exports[`Big list of naughty strings given "False" it returns expected output 1`] = `"False"`;
+
+exports[`Big list of naughty strings given "Horniman Museum" it returns expected output 1`] = `"Horniman Museum"`;
+
+exports[`Big list of naughty strings given "If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you." it returns expected output 1`] = `"If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you."`;
+
+exports[`Big list of naughty strings given "Infinity" it returns expected output 1`] = `"Infinity"`;
+
+exports[`Big list of naughty strings given "JavaSCript:alert(123)" it returns expected output 1`] = `"JavaSCript:alert(123)"`;
+
+exports[`Big list of naughty strings given "Jimmy Clitheroe" it returns expected output 1`] = `"Jimmy Clitheroe"`;
+
+exports[`Big list of naughty strings given "Kernel.exec("ls -al /")" it returns expected output 1`] = `"Kernel.exec(\\"ls -al /\\")"`;
+
+exports[`Big list of naughty strings given "Kernel.exit(1)" it returns expected output 1`] = `"Kernel.exit(1)"`;
+
+exports[`Big list of naughty strings given "LPT1" it returns expected output 1`] = `"LPT1"`;
+
+exports[`Big list of naughty strings given "LPT2" it returns expected output 1`] = `"LPT2"`;
+
+exports[`Big list of naughty strings given "LPT3" it returns expected output 1`] = `"LPT3"`;
+
+exports[`Big list of naughty strings given "Lightwater Country Park" it returns expected output 1`] = `"Lightwater Country Park"`;
+
+exports[`Big list of naughty strings given "Linda Callahan" it returns expected output 1`] = `"Linda Callahan"`;
+
+exports[`Big list of naughty strings given "NIL" it returns expected output 1`] = `"NIL"`;
+
+exports[`Big list of naughty strings given "NUL" it returns expected output 1`] = `"NUL"`;
+
+exports[`Big list of naughty strings given "NULL" it returns expected output 1`] = `"NULL"`;
+
+exports[`Big list of naughty strings given "NaN" it returns expected output 1`] = `"NaN"`;
+
+exports[`Big list of naughty strings given "None" it returns expected output 1`] = `"None"`;
+
+exports[`Big list of naughty strings given "PRN" it returns expected output 1`] = `"PRN"`;
+
+exports[`Big list of naughty strings given "Penistone Community Church" it returns expected output 1`] = `"Penistone Community Church"`;
+
+exports[`Big list of naughty strings given "Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗" it returns expected output 1`] = `"Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗"`;
+
+exports[`Big list of naughty strings given "RomansInSussex.co.uk" it returns expected output 1`] = `"RomansInSussex.co.uk"`;
+
+exports[`Big list of naughty strings given "Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue" it returns expected output 1`] = `"Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue"`;
+
+exports[`Big list of naughty strings given "Scunthorpe General Hospital" it returns expected output 1`] = `"Scunthorpe General Hospital"`;
+
+exports[`Big list of naughty strings given "Super Bowl XXX" it returns expected output 1`] = `"Super Bowl XXX"`;
+
+exports[`Big list of naughty strings given "System("ls -al /")" it returns expected output 1`] = `"System(\\"ls -al /\\")"`;
+
+exports[`Big list of naughty strings given "The quick brown fox... [Beeeep]" it returns expected output 1`] = `"The quick brown fox... [Beeeep]"`;
+
+exports[`Big list of naughty strings given "True" it returns expected output 1`] = `"True"`;
+
+exports[`Big list of naughty strings given "Tyson Gay" it returns expected output 1`] = `"Tyson Gay"`;
+
+exports[`Big list of naughty strings given "ZZ:" it returns expected output 1`] = `"ZZ:"`;
+
+exports[`Big list of naughty strings given "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮" it returns expected output 1`] = `"Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮"`;
+
+exports[`Big list of naughty strings given "classic" it returns expected output 1`] = `"classic"`;
+
+exports[`Big list of naughty strings given "eval("puts 'hello world'")" it returns expected output 1`] = `"eval(\\"puts 'hello world'\\")"`;
+
+exports[`Big list of naughty strings given "evaluate" it returns expected output 1`] = `"evaluate"`;
+
+exports[`Big list of naughty strings given "expression" it returns expected output 1`] = `"expression"`;
+
+exports[`Big list of naughty strings given "false" it returns expected output 1`] = `"false"`;
+
+exports[`Big list of naughty strings given "http://www.cum.qc.ca/" it returns expected output 1`] = `"http://www.cum.qc.ca/"`;
+
+exports[`Big list of naughty strings given "magna cum laude" it returns expected output 1`] = `"magna cum laude"`;
+
+exports[`Big list of naughty strings given "medieval erection of parapets" it returns expected output 1`] = `"medieval erection of parapets"`;
+
+exports[`Big list of naughty strings given "mocha" it returns expected output 1`] = `"mocha"`;
+
+exports[`Big list of naughty strings given "nil" it returns expected output 1`] = `"nil"`;
+
+exports[`Big list of naughty strings given "null" it returns expected output 1`] = `"null"`;
+
+exports[`Big list of naughty strings given "perl -e 'print "<IMG SRC=java\\0script:alert(\\"XSS\\")>";' > out" it returns expected output 1`] = `"perl -e 'print \\"\\";' > out"`;
+
+exports[`Big list of naughty strings given "shitake mushrooms" it returns expected output 1`] = `"shitake mushrooms"`;
+
+exports[`Big list of naughty strings given "src=JaVaSCript:prompt(132)" it returns expected output 1`] = `"src=JaVaSCript:prompt(132)"`;
+
+exports[`Big list of naughty strings given "test⁠test‫" it returns expected output 1`] = `"test⁠test‫"`;
+
+exports[`Big list of naughty strings given "true" it returns expected output 1`] = `"true"`;
+
+exports[`Big list of naughty strings given "undef" it returns expected output 1`] = `"undef"`;
+
+exports[`Big list of naughty strings given "undefined" it returns expected output 1`] = `"undefined"`;
+
+exports[`Big list of naughty strings given "¡™£¢∞§¶•ªº–≠" it returns expected output 1`] = `"¡™£¢∞§¶•ªº–≠"`;
+
+exports[`Big list of naughty strings given "¸˛Ç◊ı˜Â¯˘¿" it returns expected output 1`] = `"¸˛Ç◊ı˜Â¯˘¿"`;
+
+exports[`Big list of naughty strings given "ÅÍÎÏ˝ÓÔÒÚÆ☃" it returns expected output 1`] = `"ÅÍÎÏ˝ÓÔÒÚÆ☃"`;
+
+exports[`Big list of naughty strings given "åß∂ƒ©˙∆˚¬…æ" it returns expected output 1`] = `"åß∂ƒ©˙∆˚¬…æ"`;
+
+exports[`Big list of naughty strings given "Œ„´‰ˇÁ¨ˆØ∏”’" it returns expected output 1`] = `"Œ„´‰ˇÁ¨ˆØ∏”’"`;
+
+exports[`Big list of naughty strings given "œ∑´®†¥¨ˆøπ“‘" it returns expected output 1`] = `"œ∑´®†¥¨ˆøπ“‘"`;
+
+exports[`Big list of naughty strings given "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥" it returns expected output 1`] = `"˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥"`;
+
+exports[`Big list of naughty strings given "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟" it returns expected output 1`] = `"̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟"`;
+
+exports[`Big list of naughty strings given "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰" it returns expected output 1`] = `"̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰"`;
+
+exports[`Big list of naughty strings given "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕" it returns expected output 1`] = `"̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕"`;
+
+exports[`Big list of naughty strings given "Ω≈ç√∫˜µ≤≥÷" it returns expected output 1`] = `"Ω≈ç√∫˜µ≤≥÷"`;
+
+exports[`Big list of naughty strings given "ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя" it returns expected output 1`] = `"ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя"`;
+
+exports[`Big list of naughty strings given "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ" it returns expected output 1`] = `"בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ"`;
+
+exports[`Big list of naughty strings given "הָיְתָהtestالصفحات التّحول" it returns expected output 1`] = `"הָיְתָהtestالصفحات التّحول"`;
+
+exports[`Big list of naughty strings given "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو." it returns expected output 1`] = `"ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو."`;
+
+exports[`Big list of naughty strings given "٠١٢٣٤٥٦٧٨٩" it returns expected output 1`] = `"٠١٢٣٤٥٦٧٨٩"`;
+
+exports[`Big list of naughty strings given "١٢٣" it returns expected output 1`] = `"١٢٣"`;
+
+exports[`Big list of naughty strings given " " it returns expected output 1`] = `" "`;
+
+exports[`Big list of naughty strings given "᠎" it returns expected output 1`] = `"᠎"`;
+
+exports[`Big list of naughty strings given "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣" it returns expected output 1`] = `"Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣"`;
+
+exports[`Big list of naughty strings given "​" it returns expected output 1`] = `"​"`;
+
+exports[`Big list of naughty strings given " test " it returns expected output 1`] = `" test "`;
+
+exports[`Big list of naughty strings given "‪‪test‪" it returns expected output 1`] = `"‪‪test‪"`;
+
+exports[`Big list of naughty strings given "‫test‫" it returns expected output 1`] = `"‫test‫"`;
+
+exports[`Big list of naughty strings given "⁦test⁧" it returns expected output 1`] = `"⁦test⁧"`;
+
+exports[`Big list of naughty strings given "⁰⁴⁵" it returns expected output 1`] = `"⁰⁴⁵"`;
+
+exports[`Big list of naughty strings given "⁰⁴⁵₀₁₂" it returns expected output 1`] = `"⁰⁴⁵₀₁₂"`;
+
+exports[`Big list of naughty strings given "₀₁₂" it returns expected output 1`] = `"₀₁₂"`;
+
+exports[`Big list of naughty strings given "⅛⅜⅝⅞" it returns expected output 1`] = `"⅛⅜⅝⅞"`;
+
+exports[`Big list of naughty strings given "␡" it returns expected output 1`] = `"␡"`;
+
+exports[`Big list of naughty strings given "␢" it returns expected output 1`] = `"␢"`;
+
+exports[`Big list of naughty strings given "␣" it returns expected output 1`] = `"␣"`;
+
+exports[`Big list of naughty strings given "⒯⒣⒠ ⒬⒰⒤⒞⒦ ⒝⒭⒪⒲⒩ ⒡⒪⒳ ⒥⒰⒨⒫⒮ ⒪⒱⒠⒭ ⒯⒣⒠ ⒧⒜⒵⒴ ⒟⒪⒢" it returns expected output 1`] = `"⒯⒣⒠ ⒬⒰⒤⒞⒦ ⒝⒭⒪⒲⒩ ⒡⒪⒳ ⒥⒰⒨⒫⒮ ⒪⒱⒠⒭ ⒯⒣⒠ ⒧⒜⒵⒴ ⒟⒪⒢"`;
+
+exports[`Big list of naughty strings given "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿" it returns expected output 1`] = `"✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿"`;
+
+exports[`Big list of naughty strings given "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙" it returns expected output 1`] = `"❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙"`;
+
+exports[`Big list of naughty strings given "　" it returns expected output 1`] = `"　"`;
+
+exports[`Big list of naughty strings given "パーティーへ行かないか" it returns expected output 1`] = `"パーティーへ行かないか"`;
+
+exports[`Big list of naughty strings given "・(￣∀￣)・:*:" it returns expected output 1`] = `"・(￣∀￣)・:*:"`;
+
+exports[`Big list of naughty strings given "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ " it returns expected output 1`] = `"ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ "`;
+
+exports[`Big list of naughty strings given "和製漢語" it returns expected output 1`] = `"和製漢語"`;
+
+exports[`Big list of naughty strings given "田中さんにあげて下さい" it returns expected output 1`] = `"田中さんにあげて下さい"`;
+
+exports[`Big list of naughty strings given "社會科學院語學研究所" it returns expected output 1`] = `"社會科學院語學研究所"`;
+
+exports[`Big list of naughty strings given "部落格" it returns expected output 1`] = `"部落格"`;
+
+exports[`Big list of naughty strings given "사회과학원 어학연구소" it returns expected output 1`] = `"사회과학원 어학연구소"`;
+
+exports[`Big list of naughty strings given "울란바토르" it returns expected output 1`] = `"울란바토르"`;
+
+exports[`Big list of naughty strings given "찦차를 타고 온 펲시맨과 쑛다리 똠방각하" it returns expected output 1`] = `"찦차를 타고 온 펲시맨과 쑛다리 똠방각하"`;
+
+exports[`Big list of naughty strings given "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠" it returns expected output 1`] = `"𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠"`;
+
+exports[`Big list of naughty strings given "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈" it returns expected output 1`] = `"𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈"`;
+
+exports[`Big list of naughty strings given "𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰" it returns expected output 1`] = `"𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰"`;
+
+exports[`Big list of naughty strings given "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘" it returns expected output 1`] = `"𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘"`;
+
+exports[`Big list of naughty strings given "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌" it returns expected output 1`] = `"𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌"`;
+
+exports[`Big list of naughty strings given "𝚃𝚑𝚎 𝚚𝚞𝚒𝚌𝚔 𝚋𝚛𝚘𝚠𝚗 𝚏𝚘𝚡 𝚓𝚞𝚖𝚙𝚜 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚣𝚢 𝚍𝚘𝚐" it returns expected output 1`] = `"𝚃𝚑𝚎 𝚚𝚞𝚒𝚌𝚔 𝚋𝚛𝚘𝚠𝚗 𝚏𝚘𝚡 𝚓𝚞𝚖𝚙𝚜 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚣𝚢 𝚍𝚘𝚐"`;
+
+exports[`Big list of naughty strings given "🐵 🙈 🙉 🙊" it returns expected output 1`] = `"🐵 🙈 🙉 🙊"`;
+
+exports[`Big list of naughty strings given "👩🏽" it returns expected output 1`] = `"👩🏽"`;
+
+exports[`Big list of naughty strings given "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 " it returns expected output 1`] = `"👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 "`;
+
+exports[`Big list of naughty strings given "😍" it returns expected output 1`] = `"😍"`;
+
+exports[`Big list of naughty strings given "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧" it returns expected output 1`] = `"🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧"`;
+
+exports[`Big list of naughty strings given "𠜎𠜱𠝹𠱓𠱸𠲖𠳏" it returns expected output 1`] = `"𠜎𠜱𠝹𠱓𠱸𠲖𠳏"`;
+
+exports[`Big list of naughty strings given "ﷺ" it returns expected output 1`] = `"ﷺ"`;
+
+exports[`Big list of naughty strings given "﷽" it returns expected output 1`] = `"﷽"`;
+
+exports[`Big list of naughty strings given "﻿" it returns expected output 1`] = `"﻿"`;
+
+exports[`Big list of naughty strings given "１２３" it returns expected output 1`] = `"１２３"`;
+
+exports[`Big list of naughty strings given "＜script＞alert(123)＜/script＞" it returns expected output 1`] = `"＜script＞alert(123)＜/script＞"`;
+
+exports[`Big list of naughty strings given "Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ" it returns expected output 1`] = `"Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ"`;
+
+exports[`Big list of naughty strings given "｀ｨ(´∀｀∩" it returns expected output 1`] = `"｀ｨ(´∀｀∩"`;
+
+exports[`Big list of naughty strings given "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ" it returns expected output 1`] = `"ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ"`;
