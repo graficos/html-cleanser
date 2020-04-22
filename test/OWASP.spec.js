@@ -2,28 +2,9 @@
 
 import { cleanHTML } from '../dist/html-cleanser.umd'
 
-describe('cleanHTML', () => {
-  it('returns empty string if no input is provided', () => {
-    const actual = [cleanHTML(undefined), cleanHTML('')]
-    expect(actual).toEqual(['', ''])
-  })
-  it('returns allowed default tags', () => {
-    const actual = cleanHTML('<i>asdf</i><em>asdf</em>')
-    expect(actual).toBe('<i>asdf</i><em>asdf</em>')
-  })
-  it('returns allowed passed tags', () => {
-    const actual = cleanHTML('<i>asdf</i><p>asdf</p>', '<i><p>')
-    expect(actual).toBe('<i>asdf</i><p>asdf</p>')
-  })
-  it('throws error on invalid tags', () => {
-    expect(() => cleanHTML('<i>asdf</i><p>asdf</p>', '<script>')).toThrow()
-  })
-  it('no HTML allowed', () => {
-    const actual = cleanHTML('<i>asdf</i><p>asdf</p>', '')
-    expect(actual).toBe('asdfasdf')
-  })
-  // Many of the OWASP tests ahead:
-  // https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+// Many of the OWASP tests ahead:
+// https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+describe('OWASP tests', () => {
   it('Basic XSS Test Without Filter Evasion', () => {
     const actual = cleanHTML('<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>')
     expect(actual).toBe('')
