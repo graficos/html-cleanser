@@ -15,7 +15,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest --ci --colors",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "prepublish": "npm run build && npm test"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
