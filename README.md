@@ -3,7 +3,7 @@
 Remove unwanted HTML tags from user's input or untrusted sources:
 
 ```js
-import { cleanHTML } from 'html-cleanser'
+import { cleanHTML } from '@graficos/html-cleanser'
 
 const cleanString = cleanHTML(/* your source here */)
 ```
@@ -19,10 +19,10 @@ Feel free to contribute and suggest more rules ;)
 ## Installation
 
 ```
-npm i gist:43be7fbcc252709bcd7148ec9da8578a
+npm i @graficos/html-cleanser
 ```
 
-## Benchmarks 
+## Benchmarks
 
 ```
 Sources:
@@ -32,7 +32,7 @@ Sources:
 
 Running 🐇...
 
-  "Short Page"  x    1,795 ops/sec ±1.79% (82 runs sampled)
-  "Large Page"  x      834 ops/sec ±0.72% (90 runs sampled)
-  "GA <script>" x  106,644 ops/sec ±0.33% (90 runs sampled)
+  "Short Page"  x     1,948 ops/sec ±0.37% (90 runs sampled)
+  "Large Page"  x       849 ops/sec ±0.73% (91 runs sampled)
+  "GA <script>" x    90,793 ops/sec ±0.28% (91 runs sampled)
 ```
