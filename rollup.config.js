@@ -11,7 +11,7 @@ const INPUT_FILE = 'html-cleanser'
 const terserOptions = {
   sourcemap: true,
   compress: true,
-  mangle: true
+  mangle: true,
 }
 
 const plugins = [babel({ exclude: 'node_modules/**' })]
@@ -20,14 +20,14 @@ const createConfig = ({ input, minify, format, ext = 'js' }) => {
   const minifierSuffix = minify ? '.min' : ''
   const formatSuffix = '.' + format
   return {
-    input: `${input}.js`,
+    input: `lib/${input}.js`,
     output: {
       name: NAME,
       file: `dist/${input}${formatSuffix}${minifierSuffix}.${ext}`,
       format,
-      sourcemap: true
+      sourcemap: true,
     },
-    plugins: [...plugins, ...(minify ? [terser(terserOptions)] : [])]
+    plugins: [...plugins, ...(minify ? [terser(terserOptions)] : [])],
   }
 }
 
@@ -39,5 +39,5 @@ export default [
   { input: INPUT_FILE, format: 'esm', minify: false },
   { input: INPUT_FILE, format: 'esm', minify: true },
   { input: INPUT_FILE, format: 'umd', minify: false },
-  { input: INPUT_FILE, format: 'umd', minify: true }
+  { input: INPUT_FILE, format: 'umd', minify: true },
 ].map(createConfig)

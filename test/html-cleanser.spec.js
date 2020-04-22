@@ -1,6 +1,6 @@
 /// <reference types="jest" />
 
-import { cleanHTML } from './html-cleanser'
+import { cleanHTML } from '../dist/html-cleanser.umd'
 
 describe('cleanHTML', () => {
   it('returns empty string if no input is provided', () => {
@@ -298,7 +298,7 @@ describe('cleanHTML', () => {
       ),
       cleanHTML(
         '<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert(\'XSS\');">'
-      )
+      ),
     ]
     expect(actual).toEqual(Array(actual.length).fill(''))
   })
@@ -323,7 +323,7 @@ describe('cleanHTML', () => {
   it('TABLE', () => {
     const actual = [
       cleanHTML('<TABLE BACKGROUND="javascript:alert(\'XSS\')">'),
-      cleanHTML('<TABLE><TD BACKGROUND="javascript:alert(\'XSS\')">')
+      cleanHTML('<TABLE><TD BACKGROUND="javascript:alert(\'XSS\')">'),
     ]
     expect(actual).toEqual(Array(actual.length).fill(''))
   })
@@ -334,7 +334,7 @@ describe('cleanHTML', () => {
       ),
       cleanHTML(
         '<DIV STYLE="background-image: url(&#1;javascript:alert(\'XSS\'))">'
-      )
+      ),
     ]
     expect(actual).toEqual(Array(actual.length).fill(''))
   })
@@ -422,8 +422,8 @@ describe('cleanHTML', () => {
       '<SCRIPT "a=\'>\'" SRC="http://xss.rocks/xss.js"></SCRIPT>',
       '<SCRIPT a=`>` SRC="http://xss.rocks/xss.js"></SCRIPT>',
       `<SCRIPT a=">'>" SRC="http://xss.rocks/xss.js"></SCRIPT>`,
-      `<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://xss.rocks/xss.js"></SCRIPT>`
-    ].map(i => cleanHTML(i))
+      `<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://xss.rocks/xss.js"></SCRIPT>`,
+    ].map((i) => cleanHTML(i))
     expect(actual).toEqual([
       '" >',
       '" >',
@@ -431,7 +431,7 @@ describe('cleanHTML', () => {
       '\'" >',
       '` >',
       '\'>" >',
-      '("PT >'
+      '("PT >',
     ])
   })
   it('URL string evasion', () => {
@@ -450,8 +450,8 @@ describe('cleanHTML', () => {
       '<A HREF="http://google.com/">XSS</A>',
       '<A HREF="http://www.google.com./">XSS</A>',
       `<A HREF="javascript:document.location='http://www.google.com/'">XSS</A>`,
-      '<A HREF="http://www.google.com/ogle.com/">XSS</A>'
-    ].map(i => cleanHTML(i))
+      '<A HREF="http://www.google.com/ogle.com/">XSS</A>',
+    ].map((i) => cleanHTML(i))
     expect(actual).toEqual([
       'XSS',
       'XSS',
@@ -467,7 +467,7 @@ describe('cleanHTML', () => {
       'XSS',
       'XSS',
       'XSS',
-      'XSS'
+      'XSS',
     ])
   })
 })

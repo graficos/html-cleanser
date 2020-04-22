@@ -1,17 +1,23 @@
 {
-  "name": "html-cleanser",
-  "module": "html-cleanser.esm.js",
-  "main": "html-cleanser.min.js",
+  "name": "@graficos/html-cleanser",
+  "module": "dist/html-cleanser.esm.js",
+  "main": "dist/html-cleanser.min.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "graficos-net/html-cleanser",
   "version": "0.1.1",
   "author": "Paul Melero",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "test": "jest --ci --colors"
+    "test": "jest --ci --colors",
+    "test:watch": "npm run test -- --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "big-list-of-naughty-strings": "^1.0.0",
     "jest": "^24.1.0"
   },
   "dependencies": {
