@@ -1,7 +1,7 @@
 {
   "name": "@graficos/html-cleanser",
+  "main": "dist/html-cleanser.umd.js",
   "module": "dist/html-cleanser.esm.js",
-  "main": "dist/html-cleanser.min.js",
   "files": [
     "dist"
   ],
