@@ -22,6 +22,10 @@ Feel free to contribute and suggest more rules ;)
 npm i @graficos/html-cleanser
 ```
 
+## Demo
+
+https://htmlcleanser.netlify.app/
+
 ## Benchmarks
 
 ```
