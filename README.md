@@ -1,5 +1,7 @@
 # HTML Cleanser ✨
 
+> Demo: https://htmlcleanser.netlify.app/ (Try to hack me maybe? ❤)
+
 Remove unwanted HTML tags from user's input or untrusted sources:
 
 ```js
